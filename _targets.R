@@ -1,32 +1,27 @@
+# NOTE:
+    # Data on noise exposure and noise shapes comes from the personal pipeline
+    # on my local computer (PT)
+
 #----------------------------------------------
 # load libraries
 suppressPackageStartupMessages(
     {
     library(targets)
-    library(rlang)
-    library(here)
-    library(tidyverse)
-    library(ggplot2)
-    library(sf)
-    library(lubridate)
-    library(MetBrewer)
-    library(tarchetypes)
-    library(fs)
-    library(fst)
-    library(stringi)
-    import::from(purrr, map)
-    library(data.table)
     library(future)
     library(future.callr)
+    library(tarchetypes)
+    library(rlang)
+    library(dplyr)
+    library(tidyr)
+    library(ggplot2)
+    library(sf)
+    library(data.table)
+    library(readxl)
     library(openxlsx)
-    library(janitor)
     library(qs)
     library(docstring)
-    library(psych)
-    library(zoo)
-    library(fixest)
-    library(modelsummary)
     library(stringr)
+    library(MetBrewer)
     }
 )
 
@@ -48,6 +43,11 @@ code_path <- file.path(main_path, "code")
 setwd(main_path)
 
 #----------------------------------------------
+# globals
+
+owndpi <- 800
+
+#----------------------------------------------
 # Read files
 lapply(
     list.files(
@@ -58,4 +58,43 @@ lapply(
     ),
     source
 )
+
+#----------------------------------------------
+# population by country
+
+target_country_pop <- rlang::list2(
+    tar_fst(
+        country_pop_prep,
+        prepare_country_pop()
+    )
+)
+
+#----------------------------------------------
+# number of people under noise
+# as given by EEA
+
+target_noise_exposure <- rlang::list2(
+    tar_fst(
+        noise_exposure_prep,
+        prepare_noise_exposure()
+    ),
+    tar_target(
+        analysis_noise_exposure,
+        analyzing_noise_exposure(
+            noise_exposure_prep,
+            country_pop_prep
+        )
+    )
+    
+)
+
+#----------------------------------------------
+# all together
+
+rlang::list2(
+    target_country_pop,
+    target_noise_exposure
+)
+
+
 
