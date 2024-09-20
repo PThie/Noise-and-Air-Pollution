@@ -10,10 +10,18 @@ Noise pollution substantially impacts the affected local community's physical, m
 
 ### Noise Pollution in Bolzano (Italy)
 <div style="text-align: center;">
-  <p><strong>Noise Pollution in Bolzano (Day vs Night)</strong></p>
   <img src="selective_outputs/bolzano_noise_day.jpg" alt="Bolzano Noise Pollution Day" width="400"/> 
   <img src="selective_outputs/bolzano_noise_night.jpg" alt="Bolzano Noise Pollution Night" width="400"/>
+  <p><strong>Figure 1: Noise Pollution in Bolzano (Day vs Night)</strong></p>
 </div>
+
+<p><strong>Key points:</strong></p>
+<u style="text-decoration: none;">
+    <li>Identified noise sources: Industrial plants, railroads, and streets</li>
+    <li>Street noise is the most prominent source</li>
+    <li> Noise sources are clustered in the west and the city center; large areas
+    in the south and (partially) in the north are completely noise-free</li>
+</u>
 
 
 ## Sources
