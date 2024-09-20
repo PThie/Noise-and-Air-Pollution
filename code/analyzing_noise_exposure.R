@@ -106,9 +106,13 @@ analyzing_noise_exposure <- function(noise_exposure_prep, country_pop_prep) {
 
     # subset for countries with noise shapes
     # keep only percent values
+    countries_int <- c(
+        "Belgium", "Germany", "Italy"
+    )
+
     sample_countries <- sum_all |>
-        filter(country %in% c("Germany", "Belgium", "Italy")) |>
-        slice(seq(2, nrow(sample_countries), 2))
+        filter(country %in% countries_int) |>
+        slice(seq(2, length(countries_int) * 2, 2))
 
     # define colors
     pal <- MetBrewer::met.brewer(name = "Java", n = 5)
@@ -180,7 +184,7 @@ analyzing_noise_exposure <- function(noise_exposure_prep, country_pop_prep) {
         plot = bar_lden,
         file.path(
             output_path,
-            "graphs/exposed_pop_countries_lden.png"
+            "graphs/exposed_pop_countries_day.png"
         ),
         dpi = owndpi
     )
@@ -189,7 +193,7 @@ analyzing_noise_exposure <- function(noise_exposure_prep, country_pop_prep) {
         plot = bar_lnight,
         file.path(
             output_path,
-            "graphs/exposed_pop_countries_lnight.png"
+            "graphs/exposed_pop_countries_night.png"
         ),
         dpi = owndpi
     )

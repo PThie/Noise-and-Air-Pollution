@@ -1,2 +1,5 @@
 data
 output
+_targets/
+.Rhistory
+writing
