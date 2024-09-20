@@ -15,7 +15,7 @@ Noise pollution substantially impacts the affected local community's physical, m
   <img src="selective_outputs/bolzano_noise_night.jpg" alt="Bolzano Noise Pollution Night" width="400"/>
 </div>
 <!-- Somehow GitHub does not support paragraph styling. So use headline instead -->
-<h6 style="text-align: center;"><strong>Figure 1: Noise Pollution in Bolzano (Day vs Night)</strong></h6>
+<h6 style="text-align: center;"><strong>Figure 1: Noise Pollution in Bolzano (Day vs Night) (Source: Own Figure)</strong></h6>
 
 <p><strong>Key points:</strong></p>
 <u style="text-decoration: none;">
@@ -31,7 +31,7 @@ Noise pollution substantially impacts the affected local community's physical, m
   <img src="selective_outputs/exposed_pop_countries_day.jpg" alt="Noise Exposure by Countries Day" width="400"/> 
   <img src="selective_outputs/exposed_pop_countries_night.jpg" alt="Noise Exposure by Countries Night" width="400"/>
 </div>
-<h6 style="text-align: center;"><strong>Figure 2: Noise Exposure by Country (Day vs Night)</strong></h6>
+<h6 style="text-align: center;"><strong>Figure 2: Noise Exposure by Country (Day vs Night) (Source: Own Figure)</strong></h6>
 
 <p><strong>Key points:</strong></p>
 <u style="text-decoration: none;">
@@ -45,7 +45,7 @@ Noise pollution substantially impacts the affected local community's physical, m
 <div style="text-align: center;">
   <img src="selective_outputs/leuven_pollution.jpg" alt="Air Pollution Leuven (Belgium)" width="400"/> 
 </div>
-<h6 style="text-align: center;"><strong>Figure 3: Air Pollution in Leuven (Belgium)</strong></h6>
+<h6 style="text-align: center;"><strong>Figure 3: Air Pollution in Leuven (Belgium) (Source: Own Figure)</strong></h6>
 
 <p><strong>Key points:</strong></p>
 <u style="text-decoration: none;">
@@ -58,7 +58,7 @@ Noise pollution substantially impacts the affected local community's physical, m
 <div style="text-align: center;">
   <img src="selective_outputs/munich_population.jpg" alt="Munich Population at the Grid-Level" width="400"/> 
 </div>
-<h6 style="text-align: center;"><strong>Figure 4: Population at grid-level of Munich (Germany)</strong></h6>
+<h6 style="text-align: center;"><strong>Figure 4: Population at grid-level of Munich (Germany) (Source: Own Figure)</strong></h6>
 
 <p><strong>Key points:</strong></p>
 <u style="text-decoration: none;">
@@ -73,7 +73,7 @@ Noise pollution substantially impacts the affected local community's physical, m
   <img src="selective_outputs/munich_bivariate_map_day.png" alt="Noise and Air Pollution Combined in Munich (Germany) at Day" width="400"/> 
   <img src="selective_outputs/munich_bivariate_map_night.png" alt="Noise and Air Pollution Combined in Munich (Germany) at Night" width="400"/>
 </div>
-<h6 style="text-align: center;"><strong>Figure 5: Combination of Noise and Air Pollution in Munich (Germany)</strong></h6>
+<h6 style="text-align: center;"><strong>Figure 5: Combination of Noise and Air Pollution in Munich (Germany) (Source: Own Figure)</strong></h6>
 
 <p><strong>Key points:</strong></p>
 <u style="text-decoration: none;">
@@ -91,6 +91,15 @@ Noise pollution substantially impacts the affected local community's physical, m
 - Münzel, T., Gori, T., Babisch, W., & Basner, M. (2014). Cardiovascular Effects of Environmental Noise Exposure. European Heart Journal, 35 (13), 829–836. https://doi.org/10.1093/eurheartj/ehu030.
 - Schlenker, W., & Walker, W. R. (2016). Airports, Air Pollution, and Contemporaneous Health. The Review of Economic Studies, 83 (2), 768–809. https://doi.org/10.1093/restud/rdv043.
 - Vienneau, D., Schindler, C., Perez, L., Probst-Hensch, N., & R¨o¨osli, M. (2015). The Relationship Between Transportation Noise Exposure and Ischemic Heart Disease: A Meta-Analysis. Environmental Research, 138, 372–380. https://doi.org/10.1016/j.envres.2015.02.023.
+
+### Data Sources
+
+- European Environment Agency (EEA). (2017). EIONET - Central Data Repository: Environmental Noise Directive - Strategic Noise Maps [Data set]. https://www.eionet.europa.eu/.[Accessed: February 2023].
+- European Environment Agency (EEA). (2021). Reported Data on Noise Exposure Covered by Directive 2002/49/EC [Data set]. https://www.eea.europa.eu/data-and-maps/data/data-on-noise-exposure-8. [Accessed: February 2023].
+- Eurostat. (2021). European Grid Data Based on Eurostat-GISCO Database and GEOSTAT [Data set]. https://ec.europa.eu/eurostat/web/gisco. [Accessed: February 2023.].
+- Eurostat. (2022). Population on 1 January. Data Code: TPS00001 [Data set]. https://ec.europa.eu/eurostat/databrowser/view/TPS00001/bookmark/table?lang=en&bookmarkId=c0aa2b16-607c-4429-abb3-a4c8d74f7d1e. [Accessed: February 2023].
+- Washington University. (2021). Surface PM2.5. Atmospheric Composition Analysis Group – Washington University in St. Louis [Data set]. https://sites.wustl.edu/acag/datasets/surface-pm2-5/ [Accessed: March 2023].
+
 
 ## Disclaimer
 This repository and the corresponding output have been part of the project: Activation of NATURE-based solutions for a JUST low carbon transition funded by European Commission, Horizon 2020. All rights reserved the author of the code [Dr. Patrick Thiel](https://www.rwi-essen.de/rwi/team/person/patrick-thiel).
