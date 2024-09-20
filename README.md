@@ -9,6 +9,7 @@ Noise pollution substantially impacts the affected local community's physical, m
 ## Selective Outputs
 
 ### Noise Pollution in Bolzano (Italy)
+
 <div style="text-align: center;">
   <img src="selective_outputs/bolzano_noise_day.jpg" alt="Bolzano Noise Pollution Day" width="400"/> 
   <img src="selective_outputs/bolzano_noise_night.jpg" alt="Bolzano Noise Pollution Night" width="400"/>
@@ -24,6 +25,63 @@ Noise pollution substantially impacts the affected local community's physical, m
     in the south and (partially) in the north are completely noise-free</li>
 </u>
 
+### Noise Exposure by Country
+
+<div style="text-align: center;">
+  <img src="selective_outputs/exposed_pop_countries_day.jpg" alt="Noise Exposure by Countries Day" width="400"/> 
+  <img src="selective_outputs/exposed_pop_countries_night.jpg" alt="Noise Exposure by Countries Night" width="400"/>
+</div>
+<h6 style="text-align: center;"><strong>Figure 2: Noise Exposure by Country (Day vs Night)</strong></h6>
+
+<p><strong>Key points:</strong></p>
+<u style="text-decoration: none;">
+    <li>Considered countries: Belgium, Germany, and Italy</li>
+    <li> Around 10% of the population is exposed to noise levels between 55 dB(A) and 59 dB(A) during the day</li>
+    <li>Exposed population's share is decreasing with noise level increases</li>
+</u>
+
+### Air Pollution in Leuven (Belgium)
+
+<div style="text-align: center;">
+  <img src="selective_outputs/leuven_pollution.jpg" alt="Air Pollution Leuven (Belgium)" width="400"/> 
+</div>
+<h6 style="text-align: center;"><strong>Figure 3: Air Pollution in Leuven (Belgium)</strong></h6>
+
+<p><strong>Key points:</strong></p>
+<u style="text-decoration: none;">
+    <li>High values (around 12.5 &mu;g/m<sup>3</sup>) in the city center</li>
+    <li>Many grids (size of 1x1km) show values of 12.5 &mu;g/m<sup>3</sup></li> and higher</li>
+</u>
+
+### Population Munich (Germany)
+
+<div style="text-align: center;">
+  <img src="selective_outputs/munich_population.jpg" alt="Munich Population at the Grid-Level" width="400"/> 
+</div>
+<h6 style="text-align: center;"><strong>Figure 4: Population at grid-level of Munich (Germany)</strong></h6>
+
+<p><strong>Key points:</strong></p>
+<u style="text-decoration: none;">
+    <li>High population density in the city center with grids (size of 1x1km) with 22,000 people</li>
+    <li>Population density decreases with increasing distance from the city center</li>
+    <li>Low population density in the north-west where large green areas are located</li>
+</u>
+
+### Combination of Noise and Air Pollution in Munich (Germany)
+
+<div style="text-align: center;">
+  <img src="selective_outputs/munich_bivariate_map_day.png" alt="Noise and Air Pollution Combined in Munich (Germany) at Day" width="400"/> 
+  <img src="selective_outputs/munich_bivariate_map_night.png" alt="Noise and Air Pollution Combined in Munich (Germany) at Night" width="400"/>
+</div>
+<h6 style="text-align: center;"><strong>Figure 5: Combination of Noise and Air Pollution in Munich (Germany)</strong></h6>
+
+<p><strong>Key points:</strong></p>
+<u style="text-decoration: none;">
+    <li>Using the tool of bivariate maps to show the spatial correlation between noise and air pollution</li>
+    <li>High noise and air pollution levels in the city center</li>
+    <li>High noise pollution around the city center</li>
+    <li>High air pollution levels in the north</li>
+</u>
 
 ## Sources
 
