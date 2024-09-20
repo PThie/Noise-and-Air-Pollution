@@ -13,7 +13,8 @@ Noise pollution substantially impacts the affected local community's physical, m
   <img src="selective_outputs/bolzano_noise_day.jpg" alt="Bolzano Noise Pollution Day" width="400"/> 
   <img src="selective_outputs/bolzano_noise_night.jpg" alt="Bolzano Noise Pollution Night" width="400"/>
 </div>
-<h6 style="text-align: center;"> Figure 1: Noise Pollution in Bolzano (Day vs Night) </h6>
+<!-- Somehow GitHub does not support paragraph styling. So use headline instead -->
+<h6 style="text-align: center;"><strong>Figure 1: Noise Pollution in Bolzano (Day vs Night)</strong></h6>
 
 <p><strong>Key points:</strong></p>
 <u style="text-decoration: none;">
