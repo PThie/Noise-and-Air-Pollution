@@ -1,4 +1,4 @@
-# Noise and Air Pollution in Europe Cities
+# Noise and Air Pollution in European Cities
 
 ## Abstract
 
